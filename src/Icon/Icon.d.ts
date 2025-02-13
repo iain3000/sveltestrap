@@ -1,8 +1,9 @@
 import { SvelteComponent } from 'svelte';
 import { HTMLAttributes } from 'svelte/elements';
+import type { IconNames } from './IconNames';
 
 export interface IconProps extends HTMLAttributes<HTMLElement> {
-  name: string;
+  name: IconNames;
 }
 
 export interface IconEvents {}

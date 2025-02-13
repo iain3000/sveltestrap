@@ -11,7 +11,7 @@
 
   /**
    * Name of the icon to display.
-   * @type {string}
+   * @type {IconNames}
    * @default ''
    */
   export let name = '';

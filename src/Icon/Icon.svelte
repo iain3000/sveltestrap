@@ -11,7 +11,7 @@
 
   /**
    * Name of the icon to display.
-   * @type {IconNames}
+   * @type {import('./IconNames').IconNames}
    * @default ''
    */
   export let name = '';
